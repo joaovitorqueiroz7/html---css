@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+                Medidas Absolutas 
+                cm, mm, in, px, pt, pc
+                Recomendação = usar sempre "px"
+
+                Medidas Relativas
+                em, ex, rem, vw, vh, %
+                16px geralmente = 1em
+                Recomendação = usar sempre "em"
+            */
+
+            font-size: 1em;
+            
+            /* lighter normal bold bolder */
+
+        }
+        h1 {
+           /* shorthand font
+           - font-style -> font-weight -> font-size -> font-family 
+
+           font-family: 'Work Sans', 'sans-serif';
+           font-weight: 'bolder';
+           font-size: '3em';
+           font-style: italic;  
+           */
+
+           font: italic bolder 3em 'Work Sans', 'sans-serif';
+           
+        }
+        h2 {
+            font: bolder 2em 'sans-serif';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor qui, neque laborum aperiam dolorum perferendis magni minima eveniet, aut dignissimos architecto veritatis, voluptatum suscipit. Quasi cum architecto nobis perspiciatis minima? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet accusantium nobis harum natus, voluptates ratione temporibus modi ducimus quia quo corrupti beatae quasi dolorum vel? Dolores fuga amet aspernatur est.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eligendi explicabo dolores odit suscipit at obcaecati nihil minus quam, tempore fuga soluta esse unde aut illum ipsam a architecto voluptatibus.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita accusamus ipsa voluptas perferendis obcaecati ullam omnis doloribus, officiis deleniti maxime odit explicabo quas sit natus et quod! Consequuntur, explicabo cumque.</p>
+    
+    
+</body>
+</html>

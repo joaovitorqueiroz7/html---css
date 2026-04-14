@@ -1,0 +1,192 @@
+@charset "UTF-8";
+ 
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #84E1AD;
+    margin: 0;
+}
+
+
+h1#titulo {
+    font-size: 35pt;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 15px;
+    
+
+
+}
+
+h1#titulo2 {
+    font-family: 'android';
+    color: #246340; 
+    
+    
+}
+
+h2.subtitulo {
+    font-family: 'android';
+    color: #1a5c37;
+    box-shadow: 20px 0px 0px 0px #f0f9f476;
+    background-image: linear-gradient(to right, #a2f3c8, #f0f9f476);
+    
+    
+}
+
+p {
+    text-indent: 2em;
+    margin: 20px;
+    text-align: justify;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 17px;
+    
+}
+
+div#fotobugdroid {
+    text-align: center;
+}
+
+
+div.multimidia {
+    background-color: #1a5c37; 
+    margin: 30px 0;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+div.multimidia > iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 8px;
+   
+}
+
+.autores {
+    color: black;
+    background-color: #b2e7cb;
+    padding: 5px;
+    font-weight: 600;
+}
+
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    background-image: linear-gradient(to bottom, #3AD07D, #2D9F60, #1B6139);
+    color: white;
+    text-align: center;  
+}
+
+
+h3 {
+    color: white;
+    padding-bottom: 5px;
+    font-size: 13pt;
+    
+}
+
+div#sub {
+    padding: 10px;
+}
+
+nav {
+    text-align: left;
+ 
+    
+}
+nav > a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.86);
+    padding: 20px;
+    
+}
+
+nav > a:hover {
+    text-decoration: wavy;
+    color: white;
+    background-color: #1B6139;
+    
+   
+}
+
+
+span {
+    font-weight: bold;
+}
+
+section#extra {
+    border-radius: 20px;
+    background-color: #DAF3E5;
+    padding-bottom: 10px;
+}
+
+h2#extras {
+    background-color: #17723D;
+    padding: 10px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div#forms {
+    display: flex;
+    gap: 150px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+div#forms > nav:hover {
+    text-decoration: none;
+}
+
+ul > li {
+    text-decoration: double;
+    color: #17723D;
+}
+
+
+main {
+    background-color: white;
+    border-radius: 2px;
+    padding: 25px;
+    width: 800px    ;
+    height: auto;
+    margin: auto;
+
+    
+}
+
+footer {
+    background-color: #17723D;
+    text-align: center;
+    color: white;
+}   
+
+footer > p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+}
