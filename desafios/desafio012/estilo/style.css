@@ -6,7 +6,7 @@
 
 :root {
     --fonte01: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte02: "Passion One", sans-serif;
+    --fonte02: "Passion One", sans-serif;   
     --fonte03: "Sriracha", cursive;
 }
 
@@ -47,7 +47,7 @@ header > p {
 a {
     color: white;
     text-decoration: none;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 a:hover {
